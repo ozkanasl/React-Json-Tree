@@ -1,0 +1,42 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.accordion-container{
+  margin: 0 auto;
+  font-size:12px;
+}
+.accordion-container tr{
+  text-align: center;
+}
+i.dropdown {
+  width: 100%!important;
+  font-size: 16px!important;
+}
+.accordion-container td:first-child:hover{
+  cursor: pointer;
+}
+.accordion-container .title:hover{
+  cursor:default;
+}
+.accordion-container td:has(>i) {
+  cursor:pointer;
+  background-color:red;
+}
+.accordion-container td:first-child:focus{
+  background-color:#e8e8e8;
+}
+.accordion-container .active td:first-child{
+  background-color:#e8e8e8;
+}
+.accordion-container td:last-child:hover{
+  background-color:red;
+  color:#fff;
+  cursor:pointer;
+}
